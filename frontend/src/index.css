@@ -1,0 +1,35 @@
+/* Global styles for Vite React App */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Using Inter font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Basic Tailwind-like reset for quick styling */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, button, input {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
