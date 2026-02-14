@@ -6,15 +6,15 @@ ByteNews is an automated, personalized news summarization tool designed to help 
 ## 🚀 Features
 
 * **Personalized Feeds:** Tailored news content based on user preferences and specific categories.
-* **AI-Powered Summarization:** Uses Natural Language Processing (NLP) to distill long articles into concise bullet points.
+* **AI-Powered Summarization:** Uses Gemini API to distill long articles into concise bullet points.
 * **Multi-Source Aggregation:** Fetches data from various reputable news APIs and RSS feeds.
 * **Clean Interface:** A minimalist approach to reading the news, focusing on content rather than ads or distractions.
 
 ## 🛠️ Tech Stack
 
 * **Language:** Python
-* **Libraries:** `requests`, `BeautifulSoup4` (for scraping), `nltk` or `spacy` (for NLP/summarization).
-* **API:** NewsAPI (or specify the source used).
+* **Libraries:** `requests`, `BeautifulSoup4` (for scraping).
+* **API:** NewsAPI.
 * **Environment:** Virtualenv for dependency management.
 
 ## 🏁 Getting Started
